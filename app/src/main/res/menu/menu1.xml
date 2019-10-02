@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="ifRoom"
+        android:title="title1"
+        android:id="@+id/title1"
+        android:icon="@android:drawable/ic_dialog_info"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:title="title2"
+        android:id="@+id/title2"
+        android:icon="@android:drawable/ic_dialog_alert"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:title="title3"
+        android:id="@+id/title3"
+        android:icon="@android:drawable/ic_dialog_dialer"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:title="title4"
+        android:id="@+id/title4"
+        android:icon="@android:drawable/ic_dialog_email"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:title="title5"
+        android:id="@+id/title5"
+        android:icon="@android:drawable/ic_dialog_map"/>
+</menu>
